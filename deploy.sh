@@ -8,4 +8,4 @@ apt-get upgrade
 apt-get intall -y ssh
 apt-get install -y nginx
 
-
+ps>/var/mm/html/index.html
