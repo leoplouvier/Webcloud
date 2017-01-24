@@ -19,3 +19,11 @@ cd /var/www/html/
 
 #importation du projet github
 git clone https://github.com/leoplouvier/Webcloud
+
+#copie de index.html
+cp index.html Webcloud
+
+#accord de tous les droit aux utilisateurs su les fichier
+cd Webcloud 
+chmod +rwx deploy.sh
+chmod +rwx index.html
