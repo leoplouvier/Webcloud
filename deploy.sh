@@ -42,7 +42,7 @@ wget https://download.kiwix.org/zim/wikipedia/wikipedia_fr_all_nopic_2016-05.zim
 
 #Démarrer kiwix-serve
 ps cax | grep kiwi-server > /dev/null 
-./kiwix/bin/kiwix-serve --port=8080 wikipedia_fr_all_nopic_2016-05.zim;
+./kiwix/bin/kiwix-serve --port=8080 wikipedia_fr_all_nopic_2016-05.zim
 
 # Une fois kiwix-serve lancé 
 # vous pouvez accédez au wikipédia local depuis votre navigateur web 
