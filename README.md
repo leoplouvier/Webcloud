@@ -14,7 +14,7 @@ Cela vous permet de vous placer dans ce répertoire.
 
 ----------------------
 ### 2 - Se connecter à distance au serveur et lancer le déploiement via la commande :
-#### sh root@xx.xx.xx.xx < ./deploy.sh
+#### ssh root@xx.xx.xx.xx < ./deploy.sh
 xx.xx.xx.xx étant l'adresse IP de votre serveur.<br/>
 Nous avons déployer le projet sur l'adresse : 46.101.224.186 avec le password : azerty1234
 
