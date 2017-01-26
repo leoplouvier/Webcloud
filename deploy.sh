@@ -25,6 +25,8 @@ cd Webcloud
 chmod +rwx deploy.sh
 chmod +rwx index.html
 
+######################################################
+
 ### Pour Mettre un wikipédia local (kiwix) : 
 
 # Téléchargement de kiwix
